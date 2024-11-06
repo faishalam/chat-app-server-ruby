@@ -22,6 +22,7 @@ gem 'jwt'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
+ruby '3.2.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
