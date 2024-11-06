@@ -5,11 +5,4 @@ test:
   adapter: test
 
 production:
-  adapter: redis
-  url: redis://localhost:6379/0
-  channel_prefix: chat_app_production
-  ssl: true
-  redis:
-    ssl_params:
-      verify_mode: OpenSSL::SSL::VERIFY_NONE  # Nonaktifkan verifikasi SSL untuk pengujian
-  url: <%= ENV["REDIS_URL"] %>  # Gunakan URL Redis Heroku yang disediakan di produksi
+  adapter: test
