@@ -7,7 +7,7 @@ Rails.application.configure do
   config.enable_reloading = false
 
   config.action_cable.url = "wss://chat-web-app.herokuapp.com/cable"
-config.action_cable.allowed_request_origins = ['https://chat-web-app.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://chat-web-app.herokuapp.com']
 
 
   # Eager load code on boot. This eager loads most of Rails and
