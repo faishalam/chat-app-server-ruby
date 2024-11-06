@@ -1,6 +1,6 @@
 # config/initializers/redis.rb
-Redis.current = Redis.new(host: 'localhost', port: 6379)  # Adjust to your configuration
+redis_config = { host: 'localhost', port: 6379 }
+$redis = Redis.new(redis_config)
 
-if defined?(Redis)
-    Redis.current = Redis.new(host: 'localhost', port: 6379)  # or use your actual Redis config
-  end
+# Or if you want a pool (useful for multi-threaded environments):
+$redis_pool = ConnectionPool.new(size: 5, timeout: 5) { Redis.new(redis_config) }
