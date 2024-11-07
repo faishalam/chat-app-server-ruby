@@ -36,5 +36,5 @@ Run the development client:
 
 ## Layout
 
-![Screenshot showing weather app layout](/client/public/assets/loginLayout.png)
-![Screenshot showing weather app layout](/client/public/assets/homeLayout.png)
+![Screenshot showing weather app layout](/assets/loginLayout.png)
+![Screenshot showing weather app layout](/assets/homeLayout.png)
