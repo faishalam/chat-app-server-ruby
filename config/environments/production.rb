@@ -41,7 +41,7 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ "http://example.com", /http:\/\/example.*/ ]
 
   config.action_cable.url = "wss://chat-web-app-1358486b4ea0.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = ['https://chat-web-app-1358486b4ea0.herokuapp.com', 'http://localhost:3000', 'https://chat-app-fullstack-mu.vercel.app/']
+  config.action_cable.allowed_request_origins = ['https://chat-web-app-1358486b4ea0.herokuapp.com', 'http://localhost:3000', 'https://chat-app-fullstack-mu.vercel.app']
 
 
 
