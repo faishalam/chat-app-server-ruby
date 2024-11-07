@@ -1,25 +1,40 @@
-# README
+DEPLOYMENT LINK : https://chat-app-fullstack-mu.vercel.app/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tech
 
-Things you may want to cover:
+- FE Tech : NextJS, TypeScript, React Query, Context API, React Hooks Form, Tailwind CSS
+- FE UI : Atomic Design (Slicing), Tailwind CSS
+- BE Tech : Ruby on Rails, JWT, Bcrypt, ApplicationCable
 
-* Ruby version
+Deploy FE : Vercel
+Deploy BE & Database : Heroku
 
-* System dependencies
+## Features
 
-* Configuration
+- User Register
+- User Login
+- Get All Rooms
+- Gel Rooms By Id
+- Create Rooms (Real Time)
+- Create Message (Real Time)
+- Delete Message (Real Time)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+First clone :
 
-* How to run the test suite
+```
+- FE : npm i
+- BE : Bundle update / Bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the development server:
+- Rails server -p 3004
 
-* Deployment instructions
+Run the development client:
+- npm run dev
 
-* ...
-# chat-app-server-ruby
+## Layout
+
+![Screenshot showing weather app layout](/client/public/assets/loginLayout.png)
+![Screenshot showing weather app layout](/client/public/assets/homeLayout.png)
